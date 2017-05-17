@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "proxima-nova-soft";
+  font-style: normal;
+  src: url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+}
+*{
+  box-sizing: border-box;
+}
+.content{
+  position: relative;
+}
+.section-neat{
+  position: relative;
+  height: 480px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9ACCEF;
+}
+.icon--hero-park{
+  width: 260px;
+  height: 316px;
+  bottom: 16px;
+  left: -22%;
+  position: absolute;
+  z-index: 1;
+}
+.icon--hero-bench{
+  width: 148px;
+  height: 66px;
+  bottom: 16px;
+  right: -2%;
+  position: absolute;
+  z-index: 1;
+}
+
+.garanteeCircle{
+  background-color: #FFCC66;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.icon--step-bond-guarantee{
+  height: 100px;
+}
+/**/
+
+.icon--arrow-down {
+  width: 100px;
+  height: 100px;
+}
+.icon--arrow-left {
+  width: 100px;
+  height: 100px;
+}
+.icon--card-amex {
+  width: 100px;
+  height: 100px;
+}
+.icon--card-mastercard {
+  width: 100px;
+  height: 100px;
+}
+.icon--card-visa {
+    width: 100px;
+    height: 100px;
+  }
+.icon--close {
+  width: 100px;
+  height: 100px;
+}
+.icon--date {
+  width: 100px;
+  height: 100px;
+}
+.icon--feature-eco {
+  width: 100px;
+  height: 100px;
+}
+.icon--feature-flexibility {
+  width: 100px;
+  height: 100px;
+}
+.icon--feature-insurance {
+  width: 100px;
+  height: 100px;
+}
+.icon--feature-professional {
+  width: 100px;
+  height: 100px;
+}
+.icon--feature-support {
+  width: 100px;
+  height: 100px;
+}
+.icon--feature-transparency {
+  width: 100px;
+  height: 100px;
+}
+.icon--hello-close {
+  width: 100px;
+  height: 100px;
+}
+.icon--hero {
+  width: 100px;
+  height: 100px;
+}
+.icon--input-date {
+  width: 100px;
+  height: 100px;
+}
+.icon--input-time {
+  width: 100px;
+  height: 100px;
+}
+.icon--loading {
+  width: 100px;
+  height: 100px;
+}
+.icon--mascots {
+  width: 100px;
+  height: 100px;
+}
+.icon--pitch-arrow {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--property-apartment {
+  width: 100px;
+  height: 100px;
+}
+.icon--property-house {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--property-studio {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--rating-4-5 {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--rating-4 {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--rating-5 {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--social-fb {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--social-gp {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--social-tw {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--step-bond-guarantee {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--step-payment {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--step-quote {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--tags--alt {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--tags {
+  width: 100px;
+  height: 100px;
+}
+.icon--tick {
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon--tooltip {
+
+    width: 100px;
+    height: 100px;
+  }
