@@ -6,13 +6,17 @@
 *{
   box-sizing: border-box;
 }
-.content{
-  position: relative;
+
+.pdTop{
+  padding-top: 140px;
+}
+.pdBotton{
+  padding-bottom: 50px;
 }
 .section-neat{
+  color: white;
   position: relative;
   height: 480px;
-  padding: 0;
   overflow: hidden;
   background-color: #9ACCEF;
 }
