@@ -5,219 +5,269 @@
 }
 *{
   box-sizing: border-box;
+  margin:0;
+  padding: 0;
 }
 
-.pdTop{
-  padding-top: 140px;
+@media (min-width: 768px) {
+  .portadaNeat .icon--hero-park {
+    left: 10%;
+  }
+  .portadaNeat .icon--hero-bench {
+    right: 20%;
+  }
+  .gallery img {
+    width:250px;
+  }
 }
-.pdBotton{
-  padding-bottom: 50px;
+ .textComunity{
+   text-align: center;
+ }
+ .checklist .list-group{
+   height: 620px;
+ }
+
+@media  (max-width: 768px) {
+  .portadaNeat .icon--hero-park {
+    left: -50%;
+    bottom: -11% !important;
+  }
+  .portadaNeat .icon--hero-bench {
+    right: 0%;
+    bottom: -4%;
+  }
+  .gallery img {
+    width:250px;
+  }
+
+
 }
-.section-neat{
-  color: white;
+
+.panel-group  {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.panel-default > .panel-heading {
+  background: none;
+  padding: 15px 12px 15px 12px;
   position: relative;
+
+}
+.panel-group .panel+.panel {
+  margin-top: 0px;
+  border-top: none;
+  border-radius: 0;
+}
+.panel-heading i[class|="icons icon--feature"] {
+  position: absolute;
+  top: 5px;
+}
+
+.panel-heading .accordion-toggle:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e113";
+    float: right;
+    color: #6ea43f;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    content: "\e114";
+}
+.panel-title a {
+  text-decoration:none;
+  color: #6ea43f;
+  margin-left: 56px;
+}
+
+.portadaNeat {
+  position: relative;
+  width: 100%;
   height: 480px;
-  overflow: hidden;
-  background-color: #9ACCEF;
 }
-.icon--hero-park{
-  width: 260px;
-  height: 316px;
-  bottom: 16px;
-  left: -22%;
+.icon--hero-bg {
+  height: 434px;
+  background-position: right bottom;
+}
+
+.portadaNeat .icon--hero {
+  z-index:1;
+  background-position: center;
   position: absolute;
+  top: -74px;
+  height: 122%;
+  left: -2px;
+}
+.portadaNeat .icon--hero-park {
+
+  bottom: -4%;
+  width: 63%;
+  height: 62%;
   z-index: 1;
 }
-.icon--hero-bench{
+.icons {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  vertical-align: middle;
+  color: transparent;
+  border: 0;
+}
+.textWhite{
+   color: #f9f9f9;
+}
+.textGray{
+  color:#B0B0B0;
+}
+.textBlue{
+  color: #3498DB;
+}
+.icon--hero-bench {
+  bottom: -10px;
   width: 148px;
-  height: 66px;
-  bottom: 16px;
-  right: -2%;
-  position: absolute;
+  height: 49px;
   z-index: 1;
 }
+.bg-portadaNeat {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 33.5em;
+  background-size: cover;
+}
+.photoCostumer{
+  display: inline-block;
+}
+.topPaddBott{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.topPadding{
+  padding-top: 107px;
+}
+#portadaNeat .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 480px;
+}
+.portadaNeat .logo {
+  width: 120px;
+  margin: 0 auto 10px;
+}
+.row-button {
+  margin-top: 30px;
+}
 
-.garanteeCircle{
-  background-color: #FFCC66;
+.btn-get {
+  background: #3498DB;
+  padding: 14px 35px;
+  border-radius: 25px;
+}
+
+.how-it-works {
+  background: #f9f9f9;
+  margin-top: -50px;
+}
+.circle {
+  width: 270px;
+  height: 270px;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  margin: 42px auto 0;
+  position: relative;
+  background: #FFCC66;
 }
-.icon--step-bond-guarantee{
-  height: 100px;
+.circle .icon--step-quote,
+.circle .icon--step-payment,
+.circle .icon--step-bond-guarantee {
+  position: absolute;
+  top: 10%;
+  left: 12%;
+  width: 175px;
+  height: 175px;
 }
-/**/
-
-.icon--arrow-down {
-  width: 100px;
-  height: 100px;
+.our-community{
+  background: #75B9E7;
+  color: #fff !important;
+  position: relative;
+  padding-bottom: 200px;
 }
-.icon--arrow-left {
-  width: 100px;
-  height: 100px;
+.photoCostumer {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
 }
-.icon--card-amex {
-  width: 100px;
-  height: 100px;
+.jessica{
+  background-image: url("../img/background/testimonials.jpg");
 }
-.icon--card-mastercard {
-  width: 100px;
-  height: 100px;
+.nic{
+  background-image: url("../img/background/testimonials.jpg");
+  background-position: bottom;
 }
-.icon--card-visa {
-    width: 100px;
-    height: 100px;
-  }
-.icon--close {
-  width: 100px;
-  height: 100px;
-}
-.icon--date {
-  width: 100px;
-  height: 100px;
-}
-.icon--feature-eco {
-  width: 100px;
-  height: 100px;
-}
-.icon--feature-flexibility {
-  width: 100px;
-  height: 100px;
-}
-.icon--feature-insurance {
-  width: 100px;
-  height: 100px;
-}
-.icon--feature-professional {
-  width: 100px;
-  height: 100px;
-}
-.icon--feature-support {
-  width: 100px;
-  height: 100px;
-}
-.icon--feature-transparency {
-  width: 100px;
-  height: 100px;
-}
-.icon--hello-close {
-  width: 100px;
-  height: 100px;
-}
-.icon--hero {
-  width: 100px;
-  height: 100px;
-}
-.icon--input-date {
-  width: 100px;
-  height: 100px;
-}
-.icon--input-time {
-  width: 100px;
-  height: 100px;
-}
-.icon--loading {
-  width: 100px;
-  height: 100px;
-}
-.icon--mascots {
-  width: 100px;
-  height: 100px;
-}
-.icon--pitch-arrow {
-  width: 100px;
-  height: 100px;
-
+.renee{
+  background-image: url("../img/background/testimonials.jpg");
+  background-position: center;
 }
 
-.icon--property-apartment {
+.text-stars i {
   width: 100px;
-  height: 100px;
+  height: 30px;
 }
-.icon--property-house {
-  width: 100px;
-  height: 100px;
-
+.cleaning-checklist {
+  background: #3498db;
+  color: #fff !important;
 }
-
-.icon--property-studio {
-  width: 100px;
-  height: 100px;
-
+.gallery {
+  top: -100px;
+  width: 100%;
+  position: relative;
 }
 
-.icon--rating-4-5 {
-  width: 100px;
-  height: 100px;
 
+.img-col .zI2 {
+  margin: 0 15px;
 }
-
-.icon--rating-4 {
-  width: 100px;
-  height: 100px;
-
+.img-col .rotRight {
+  transform: rotate(-5deg);
 }
-
-.icon--rating-5 {
-  width: 100px;
-  height: 100px;
-
+.img-col .rotLeft {
+  transform: rotate(5deg);
 }
-
-.icon--social-fb {
-  width: 100px;
-  height: 100px;
-
+.img-col .rotRight:hover {
+  transform: rotate(-10deg);
 }
-
-.icon--social-gp {
-  width: 100px;
-  height: 100px;
-
+.img-col .rotLeft:hover {
+  transform: rotate(10deg);
 }
-
-.icon--social-tw {
-  width: 100px;
-  height: 100px;
-
+.img-col .zI1 {
+  top: -270px;
+  z-index: 1;
+  margin: 0 40px;
 }
-
-.icon--step-bond-guarantee {
-  width: 100px;
-  height: 100px;
-
+.img-col .zI2 {
+  z-index: 2;
 }
-
-.icon--step-payment {
-  width: 100px;
-  height: 100px;
-
+.checklist {
+  position: relative;
+  color: #656565;
 }
-
-.icon--step-quote {
-  width: 100px;
-  height: 100px;
-
+.checklist-title {
+  z-index: 3;
+  text-align: center;
 }
-
-.icon--tags--alt {
-  width: 100px;
-  height: 100px;
-
+.list-group-item {
+  padding: 11px;
 }
-
-.icon--tags {
-  width: 100px;
-  height: 100px;
+.list-group-item div {
+  color: #87bf57;
+  float: left;
+  width: 30px;
+  height: 30px;
 }
-.icon--tick {
-  width: 100px;
-  height: 100px;
-
+.list-group-item p {
+  padding: 0 30px;
+  margin: 0;
 }
-
-.icon--tooltip {
-
-    width: 100px;
-    height: 100px;
-  }
+.quote {
+  background: #eee;
+}
